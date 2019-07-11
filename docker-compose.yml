@@ -1,0 +1,41 @@
+version: '2'
+
+services:
+  postgres:
+    image: 'postgres:9.5'
+    volumes:
+      - 'postgres:/var/lib/postgresql/data'
+
+  jobs:
+    depends_on:
+      - 'postgres'
+      - 'website'
+    build: .
+    command: bash start_jobs
+    volumes:
+      - '.:/vagastest'
+    volumes_from:
+      - box
+
+  website:
+    depends_on:
+      - 'postgres'
+    build: .
+    command: bash start
+    ports:
+      - '3000:3000'
+    volumes:
+      - '.:/vagastest'
+    volumes_from:
+    - box
+
+  box:
+    image: busybox
+    volumes:
+      - /box
+
+
+
+volumes:
+  postgres:
+  box:
