@@ -1,4 +1,4 @@
-class PeopleController < ApplicationController
+  class Api::V1::PeopleController < Api::V1::ApiController
   before_action :set_person, only: [:show, :update, :destroy]
 
   # GET /people

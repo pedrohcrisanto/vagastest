@@ -1,4 +1,4 @@
-class CandidaturesController < ApplicationController
+class Api::V1::CandidaturesController < Api::V1::ApiController
   before_action :set_candidature, only: [:show, :update, :destroy]
 
   # GET /candidatures
