@@ -38,11 +38,11 @@ https://vagastest.herokuapp.com/
 ## Candidaturas
  GET => localhost:3000/api/v1/candidatures
   ```sh
-  Lista todas as candidaturas
+  Lista todas as candidaturas.
  ```
  GET => localhost:3000/api/v1/candidatures/id
    ```sh
-  Mostra as informações da candidatura selecionada pelo ID
+  Mostra as informações da candidatura selecionada pelo ID.
    ```
  POST => localhost:3000/api/v1/candidatures
    ```sh
@@ -50,11 +50,11 @@ https://vagastest.herokuapp.com/
    ```
  PATCH => localhost:3000/api/v1/candidatures/id
    ```sh
-  Atualizar a candidatura de acordo com ID
+  Atualizar a candidatura de acordo com ID.
    ```
  DELETE => localhost:3000/api/v1/candidatures/id
    ```sh
-  Deleta uma candidatura selecionada pelo ID
+  Deleta uma candidatura selecionada pelo ID.
    ```
           
   ## Pessoas
@@ -64,7 +64,7 @@ https://vagastest.herokuapp.com/
    ```
  GET 	=> localhost:3000/api/v1/people/id
    ```sh
-  - Mostra as informações da pessoa selecionada pelo ID.
+  Mostra as informações da pessoa selecionada pelo ID.
    ```
  POST => localhost:3000/api/v1/people
    ```sh
