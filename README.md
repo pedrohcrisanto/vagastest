@@ -35,9 +35,11 @@ https://vagastest.herokuapp.com/
 
 ## Documentação API
           
-          Candidaturas
+ Candidaturas
  GET => localhost:3000/api/v1/candidatures
+  ```sh
   Lista todas as candidaturas
+ ```
  GET => localhost:3000/api/v1/candidatures/id
   Mostra as informações da candidatura selecionada pelo ID
  POST => localhost:3000/api/v1/candidatures
@@ -47,7 +49,7 @@ https://vagastest.herokuapp.com/
  DELETE => localhost:3000/api/v1/candidatures/id
   Deleta uma candidatura selecionada pelo ID
           
-          Pessoas
+  Pessoas
  GET 	=> localhost:3000/api/v1/people
   - Lista todas as pessoas.
  GET 	=> localhost:3000/api/v1/people/id
