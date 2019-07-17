@@ -1,6 +1,6 @@
-## Vagas.com - Test
+# Vagas.com - Test
 por Pedro Crisanto
-## Configuração
+# Configuração
 
 Clone o projeto
 
@@ -30,12 +30,12 @@ Para realizar Testes
 ```sh
 $ sudo docker-compose run --rm website bundle exec rspec
 ```
-## Aplicação no Heroku
+# Aplicação no Heroku
 https://vagastest.herokuapp.com/
 
-## Documentação API
+# Documentação API
           
-# Candidaturas
+## Candidaturas
  GET => localhost:3000/api/v1/candidatures
   ```sh
   Lista todas as candidaturas
@@ -57,7 +57,7 @@ https://vagastest.herokuapp.com/
   Deleta uma candidatura selecionada pelo ID
    ```
           
-  # Pessoas
+  ## Pessoas
  GET 	=> localhost:3000/api/v1/people
    ```sh
   Lista todas as pessoas.
@@ -77,24 +77,24 @@ https://vagastest.herokuapp.com/
    ```sh
   Deleta uma pessoa selecionada pelo ID.
    ```
- # Vagas
+ ## Vagas
  GET => localhost:3000/api/v1/jobs
-    ```sh
+   ```sh
   Lista todas as vagas.
-     ```
+   ```
  GET => localhost:3000/api/v1/jobs/id
-    ```sh
+   ```sh
   Mostra as informações da vaga selecionada pelo ID.
-     ```
+   ```
  POST => localhost:3000/api/v1/jobs
-    ```sh
+   ```sh
   Cria uma nova vaga.
-     ```
+   ```
  PATCH => localhost:3000/api/v1/jobs/id
-    ```sh
+   ```sh
   Atualizar a vaga de acordo com ID.
-     ```
+   ```
  DELETE => localhost:3000/api/v1/jobs/id
-    ```sh
+   ```sh
   Deleta uma vaga selecionada pelo ID.     
    ```
