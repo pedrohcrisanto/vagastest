@@ -35,40 +35,66 @@ https://vagastest.herokuapp.com/
 
 ## Documentação API
           
- Candidaturas
+# Candidaturas
  GET => localhost:3000/api/v1/candidatures
   ```sh
   Lista todas as candidaturas
  ```
  GET => localhost:3000/api/v1/candidatures/id
+   ```sh
   Mostra as informações da candidatura selecionada pelo ID
+   ```
  POST => localhost:3000/api/v1/candidatures
+   ```sh
   Cria uma nova candidatura.
+   ```
  PATCH => localhost:3000/api/v1/candidatures/id
+   ```sh
   Atualizar a candidatura de acordo com ID
+   ```
  DELETE => localhost:3000/api/v1/candidatures/id
+   ```sh
   Deleta uma candidatura selecionada pelo ID
+   ```
           
-  Pessoas
+  # Pessoas
  GET 	=> localhost:3000/api/v1/people
-  - Lista todas as pessoas.
+   ```sh
+  Lista todas as pessoas.
+     ```
  GET 	=> localhost:3000/api/v1/people/id
+   ```sh
   - Mostra as informações da pessoa selecionada pelo ID.
  POST => localhost:3000/api/v1/people
-  - Cria uma nova pessoa.
+   ```sh
+  Cria uma nova pessoa.
+     ```
  PATCH => localhost:3000/api/v1/people/id
-  - Atualizar a pessoa de acordo com ID.
+   ```sh
+  Atualizar a pessoa de acordo com ID.
+     ```
  DELETE => localhost:3000/api/v1/people/id
-  - Deleta uma pessoa selecionada pelo ID.
-
-          Vagas
+   ```sh
+  Deleta uma pessoa selecionada pelo ID.
+   ```
+ # Vagas
  GET => localhost:3000/api/v1/jobs
+    ```sh
   Lista todas as vagas.
+     ```
  GET => localhost:3000/api/v1/jobs/id
+    ```sh
   Mostra as informações da vaga selecionada pelo ID.
+     ```
  POST => localhost:3000/api/v1/jobs
+    ```sh
   Cria uma nova vaga.
+     ```
  PATCH => localhost:3000/api/v1/jobs/id
+    ```sh
   Atualizar a vaga de acordo com ID.
+     ```
  DELETE => localhost:3000/api/v1/jobs/id
+    ```sh
   Deleta uma vaga selecionada pelo ID.     
+   ```
