@@ -29,7 +29,7 @@ Para realizar Testes
 ```sh
 $ sudo docker-compose run --rm website bundle exec rspec
 ```
-## Aplicação no Heroku
+## Deploy no Heroku
 https://vagastest.herokuapp.com/
 
 ## Documentação API
