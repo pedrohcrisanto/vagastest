@@ -1,24 +1,34 @@
-# README
+## Vagas.com - Test
+por Pedro Crisanto
+## Configuração
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone o projeto
 
-Things you may want to cover:
+```sh
+$ git clone https://github.com/pedrohcrisanto/vagastest.git
+```
 
-* Ruby version
+Instale as dependências
+```sh
+$ cd /vagastest/
+$ sudo docker-compose run --rm website bundle install
+```
 
-* System dependencies
+Crie o banco e as tabelas e popular banco
+```sh
+$ sudo docker-compose run --rm website bundle exec rails db:create db:migrate db:seed
+```
 
-* Configuration
+Rode a aplicação
+```sh
+$ sudo docker-compose up
+```
 
-* Database creation
+Abra o seu navegador(de preferência Chrome ou Firefox) e navegue para `localhost:3000`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Para realizar Testes
+```sh
+$ sudo docker-compose run --rm website bundle exec rspec
+```
+## Aplicação no Heroku
+https://vagastest.herokuapp.com/
