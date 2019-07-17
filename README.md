@@ -1,6 +1,6 @@
-# Vagas.com - Test
+# VAGAS.COM - TEST
 por Pedro Crisanto
-# Configuração
+## Configuração
 
 Clone o projeto
 
@@ -61,18 +61,19 @@ https://vagastest.herokuapp.com/
  GET 	=> localhost:3000/api/v1/people
    ```sh
   Lista todas as pessoas.
-     ```
+   ```
  GET 	=> localhost:3000/api/v1/people/id
    ```sh
   - Mostra as informações da pessoa selecionada pelo ID.
+   ```
  POST => localhost:3000/api/v1/people
    ```sh
   Cria uma nova pessoa.
-     ```
+   ```
  PATCH => localhost:3000/api/v1/people/id
    ```sh
   Atualizar a pessoa de acordo com ID.
-     ```
+   ```
  DELETE => localhost:3000/api/v1/people/id
    ```sh
   Deleta uma pessoa selecionada pelo ID.
