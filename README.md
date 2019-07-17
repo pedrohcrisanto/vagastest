@@ -13,7 +13,7 @@ $ cd /vagastest/
 $ sudo docker-compose run --rm website bundle install
 ```
 
-Crie o banco e as tabelas e popular banco
+Crie o banco, migre as tabelas e logo após popule banco de dados
 ```sh
 $ sudo docker-compose run --rm website bundle exec rails db:create db:migrate db:seed
 ```
