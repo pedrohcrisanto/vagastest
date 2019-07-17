@@ -97,5 +97,5 @@ https://vagastest.herokuapp.com/
    ```
  DELETE => localhost:3000/api/v1/jobs/id
    ```sh
-  Deleta uma vaga selecionada pelo ID.     
+  Deleta a vaga selecionada pelo ID.     
    ```
