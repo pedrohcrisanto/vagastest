@@ -37,15 +37,15 @@ https://vagastest.herokuapp.com/
 ### Candidaturas
  GET => localhost:3000/api/v1/candidatures
   ```sh
-  Lista todas as candidaturas.
+  Listar todas as candidaturas.
  ```
  GET => localhost:3000/api/v1/candidatures/id
    ```sh
-  Mostra as informações da candidatura selecionada pelo ID.
+  Mostrar as informações da candidatura selecionada pelo ID.
    ```
  POST => localhost:3000/api/v1/candidatures
    ```sh
-  Cria uma nova candidatura.
+  Criar uma nova candidatura.
    ```
  PATCH => localhost:3000/api/v1/candidatures/id
    ```sh
@@ -53,21 +53,21 @@ https://vagastest.herokuapp.com/
    ```
  DELETE => localhost:3000/api/v1/candidatures/id
    ```sh
-  Deleta uma candidatura selecionada pelo ID.
+  Deletar uma candidatura selecionada pelo ID.
    ```
           
   ### Pessoas
  GET 	=> localhost:3000/api/v1/people
    ```sh
-  Lista todas as pessoas.
+  Listar todas as pessoas.
    ```
  GET 	=> localhost:3000/api/v1/people/id
    ```sh
-  Mostra as informações da pessoa selecionada pelo ID.
+  Mostrar as informações da pessoa selecionada pelo ID.
    ```
  POST => localhost:3000/api/v1/people
    ```sh
-  Cria uma nova pessoa.
+  Criar uma nova pessoa.
    ```
  PATCH => localhost:3000/api/v1/people/id
    ```sh
@@ -75,20 +75,20 @@ https://vagastest.herokuapp.com/
    ```
  DELETE => localhost:3000/api/v1/people/id
    ```sh
-  Deleta uma pessoa selecionada pelo ID.
+  Deletar uma pessoa selecionada pelo ID.
    ```
  ### Vagas
  GET => localhost:3000/api/v1/jobs
    ```sh
-  Lista todas as vagas.
+  Listar todas as vagas.
    ```
  GET => localhost:3000/api/v1/jobs/id
    ```sh
-  Mostra as informações da vaga selecionada pelo ID.
+  Mostrar as informações da vaga selecionada pelo ID.
    ```
  POST => localhost:3000/api/v1/jobs
    ```sh
-  Cria uma nova vaga.
+  Criar uma nova vaga.
    ```
  PATCH => localhost:3000/api/v1/jobs/id
    ```sh
@@ -96,5 +96,5 @@ https://vagastest.herokuapp.com/
    ```
  DELETE => localhost:3000/api/v1/jobs/id
    ```sh
-  Deleta a vaga selecionada pelo ID.     
+  Deletar a vaga selecionada pelo ID.     
    ```
