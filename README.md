@@ -36,16 +36,16 @@ https://vagastest.herokuapp.com/
 ## Documentação API
           
           Candidaturas
- GET 	=> localhost:3000/api/v1/candidatures
-  - Lista todas as candidaturas.
- GET 	=> localhost:3000/api/v1/candidatures/id
-  - Mostra as informações da candidatura selecionada pelo ID.
+ GET => localhost:3000/api/v1/candidatures
+  Lista todas as candidaturas
+ GET => localhost:3000/api/v1/candidatures/id
+  Mostra as informações da candidatura selecionada pelo ID
  POST => localhost:3000/api/v1/candidatures
-  - Cria uma nova candidatura.
+  Cria uma nova candidatura.
  PATCH => localhost:3000/api/v1/candidatures/id
-  - Atualizar a candidatura de acordo com ID.
+  Atualizar a candidatura de acordo com ID
  DELETE => localhost:3000/api/v1/candidatures/id
-  - Deleta uma candidatura selecionada pelo ID.
+  Deleta uma candidatura selecionada pelo ID
           
           Pessoas
  GET 	=> localhost:3000/api/v1/people
